@@ -1,0 +1,7 @@
+<!-- res/anim/button_bounce.xml -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromYDelta="0%"
+    android:toYDelta="10%"
+    android:duration="1000"
+    android:repeatCount="infinite"
+    android:repeatMode="reverse" />

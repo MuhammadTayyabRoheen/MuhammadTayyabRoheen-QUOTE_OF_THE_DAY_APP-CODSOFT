@@ -1,0 +1,6 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@android:color/white" />
+    </item>
+    <!-- Add other items for background design if needed -->
+</layer-list>

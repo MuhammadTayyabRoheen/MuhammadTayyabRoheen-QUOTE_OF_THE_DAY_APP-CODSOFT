@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launch"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="207dp"
+        android:layout_height="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="108dp"
+        android:contentDescription="@string/app_logo_desc"
+        android:src="@drawable/app_logo_1" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_logo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="128dp"
+        android:background="@drawable/button_background"
+        android:elevation="4dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="12dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="12dp"
+        android:text="Start"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/below_button_image"
+        android:layout_width="395dp"
+        android:layout_height="247dp"
+        android:layout_below="@id/btnStart"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/app_logo1" />
+</RelativeLayout>
